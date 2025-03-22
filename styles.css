@@ -72,6 +72,7 @@ welcome-text{
     margin-bottom: 100px;
     align-items: center;
     gap: 100px;
+    font-size: 20px;
 }
 
 .informations{
@@ -86,6 +87,7 @@ welcome-text{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    font-size: 16px;
 }
 
 .info_img{
@@ -97,4 +99,16 @@ border: #1F2937;
 .testomonial{
     height: 400px;
     background-color: #E5E7EB;
+    font-size: 36px;
+    padding: 50px;
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+    align-content: center;
+}
+
+.text-2{
+    text-align: end;
+    font-size: smaller;
+    font-weight: bold;
 }
