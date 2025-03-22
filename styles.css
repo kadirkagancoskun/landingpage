@@ -62,7 +62,7 @@ welcome-text{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 5%;
+  border-radius: 25px;
 }
 
 .information-container{
@@ -111,4 +111,31 @@ border: #1F2937;
     text-align: end;
     font-size: smaller;
     font-weight: bold;
+}
+
+.action{
+    height: 150px;
+    background-color:#3882f6;
+    margin: 100px;
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-text-header{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-button{
+    background-color: #3882f6;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: white;
+    border-style:solid;
+    color: white;
 }
